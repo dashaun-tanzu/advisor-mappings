@@ -1,0 +1,110 @@
+{
+  "slug" : "spring-cloud-security",
+  "coordinates" : [
+    "org.springframework.cloud:spring-cloud-starter-security",
+    "org.springframework.cloud:spring-cloud-security-docs",
+    "org.springframework.cloud:spring-cloud-starter-oauth2",
+    "org.springframework.cloud:spring-cloud-security-parent",
+    "org.springframework.cloud:spring-cloud-security",
+    "org.springframework.cloud:spring-cloud-security-dependencies"
+  ],
+  "repositoryUrl" : "https://github.com/spring-attic/spring-cloud-security",
+  "rewrite" : {
+    "1.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 7
+        },
+        "supportedGenerations" : {
+          "spring-cloud-commons" : "1.1.x",
+          "spring-security-oauth" : "2.0.x",
+          "spring-security-jwt" : "1.0.x",
+          "spring-cloud-netflix" : "1.1.x",
+          "spring-boot" : "1.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 7
+        },
+        "supportedGenerations" : {
+          "spring-cloud-commons" : "1.3.x",
+          "spring-security-oauth" : "2.0.x",
+          "spring-security-jwt" : "1.0.x",
+          "spring-cloud-netflix" : "1.4.x",
+          "spring-boot" : "1.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "spring-cloud-commons" : "2.0.x",
+          "spring-cloud-netflix" : "2.0.x",
+          "spring-boot" : "2.0.x",
+          "spring-security-oauth2-boot" : "2.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "spring-cloud-commons" : "2.1.x",
+          "spring-cloud-gateway" : "2.1.x",
+          "spring-cloud-netflix" : "2.1.x",
+          "spring-boot" : "2.1.x",
+          "spring-security-oauth2-boot" : "2.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "spring-cloud-commons" : "2.2.x",
+          "spring-cloud-gateway" : "2.2.x",
+          "spring-cloud-netflix" : "2.2.x",
+          "spring-boot" : "2.3.x",
+          "spring-security-oauth2-boot" : "2.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}
