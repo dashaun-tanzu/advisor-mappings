@@ -1,5 +1,5 @@
 {
-  "slug" : "spring-cloud-security",
+  "slug" : "legacy-spring-cloud-security",
   "coordinates" : [
     "org.springframework.cloud:spring-cloud-starter-security",
     "org.springframework.cloud:spring-cloud-security-docs",
