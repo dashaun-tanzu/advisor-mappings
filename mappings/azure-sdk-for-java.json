@@ -1,5 +1,5 @@
 {
-  "slug" : "azure-sdk-for-java",
+  "slug" : "local-azure-sdk-for-java",
   "coordinates" : [
     "com.azure:azure-devhub-service",
     "com.azure:azure-devopsinfrastructure-service",
