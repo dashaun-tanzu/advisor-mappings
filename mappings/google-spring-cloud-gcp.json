@@ -335,7 +335,7 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 24
+          "minor" : 17
         },
         "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
@@ -594,6 +594,34 @@
       }
     },
     "7.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.3.x" : {
       "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
