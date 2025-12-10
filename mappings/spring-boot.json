@@ -149,10 +149,13 @@
         "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
-    }
+    },
     "3.5.x" : {
       "recipes" : [ ],
-      "nextRewrite" : null,
+      "nextRewrite" : {
+        "version" : "4.0.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
           "minor" : 17
@@ -160,10 +163,12 @@
         "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
-    }
+    },
     "4.0.x" : {
-      "recipes" : [ org.openrewrite.java.spring.boot4.UpgradeSpringBoot_4_0],
-      "nextRewrite" : 4.0.x,
+      "recipes" : [ {
+        "name": "org.openrewrite.java.spring.boot4.UpgradeSpringBoot_4_0"
+      }],
+      "nextRewrite" : null,
       "requirements" : {
         "supportedJavaVersions" : {
           "minor" : 17
