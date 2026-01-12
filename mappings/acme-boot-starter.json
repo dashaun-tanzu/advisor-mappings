@@ -1,0 +1,38 @@
+{
+  "slug" : "acme-boot-starter",
+  "coordinates" : [
+    "com.acme.boot:acme-boot-starter"
+  ],
+  "repositoryUrl" : "https://github.com/Broadcom/acme-boot-starter",
+  "rewrite" : {
+    "1.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 11
+        },
+        "supportedGenerations" : {
+          "spring-boot" : "2.7.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "spring-boot" : "3.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}
