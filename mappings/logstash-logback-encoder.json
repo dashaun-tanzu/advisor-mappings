@@ -1,0 +1,43 @@
+{
+  "slug" : "logstash-logback-encoder",
+  "coordinates" : [ "net.logstash.logback:logstash-logback-encoder" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "4.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}
