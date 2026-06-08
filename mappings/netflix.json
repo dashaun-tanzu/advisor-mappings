@@ -1,0 +1,41 @@
+{
+  "slug" : "netflix",
+  "coordinates" : [ "com.netflix.netflix-commons:netflix-eventbus", "com.netflix.netflix-commons:netflix-infix" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "0.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "aws-sdk-java" : "2.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "aws-sdk-java" : "2.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}
