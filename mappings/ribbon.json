@@ -1,6 +1,6 @@
 {
   "slug" : "ribbon",
-  "coordinates" : [ "com.netflix.ribbon:ribbon-core", "com.netflix.ribbon:ribbon-eureka" ],
+  "coordinates" : [ "com.netflix.ribbon:ribbon-core", "com.netflix.ribbon:ribbon-loadbalancer", "com.netflix.ribbon:ribbon-transport", "com.netflix.ribbon:ribbon-eureka" ],
   "repositoryUrl" : "",
   "rewrite" : {
     "0.1.x" : {
@@ -51,7 +51,9 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-collections" : "3.2.x",
           "aws-sdk-java" : "2.0.x",
+          "jersey" : "1.11.x",
           "rx-java" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -65,7 +67,9 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-collections" : "3.2.x",
           "aws-sdk-java" : "2.0.x",
+          "jersey" : "1.19.x",
           "rx-java" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -79,7 +83,9 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-collections" : "3.2.x",
           "aws-sdk-java" : "2.0.x",
+          "jersey" : "1.19.x",
           "rx-java" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -93,7 +99,9 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-collections" : "3.2.x",
           "aws-sdk-java" : "2.0.x",
+          "jersey" : "1.19.x",
           "rx-java" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -107,7 +115,9 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-collections" : "3.2.x",
           "aws-sdk-java" : "2.0.x",
+          "jersey" : "1.19.x",
           "rx-java" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -121,7 +131,9 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-collections" : "3.2.x",
           "aws-sdk-java" : "2.0.x",
+          "jersey" : "1.19.x",
           "rx-java" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -132,7 +144,9 @@
       "nextRewrite" : null,
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-collections" : "3.2.x",
           "aws-sdk-java" : "2.0.x",
+          "jersey" : "1.19.x",
           "rx-java" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
