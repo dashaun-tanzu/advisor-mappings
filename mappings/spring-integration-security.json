@@ -1,0 +1,15 @@
+{
+  "slug" : "spring-integration-security",
+  "coordinates" : [ "org.springframework.integration:spring-integration-security" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "4.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}
