@@ -1,6 +1,6 @@
 {
   "slug" : "rxnetty",
-  "coordinates" : [ "io.reactivex:rxnetty", "io.reactivex:rxnetty-contexts" ],
+  "coordinates" : [ "io.reactivex:rxnetty" ],
   "repositoryUrl" : "",
   "rewrite" : {
     "0.4.x" : {
