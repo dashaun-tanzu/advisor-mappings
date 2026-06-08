@@ -1,48 +1,8 @@
 {
   "slug" : "ribbon",
-  "coordinates" : [ "com.netflix.ribbon:ribbon-core", "com.netflix.ribbon:ribbon-httpclient" ],
+  "coordinates" : [ "com.netflix.ribbon:ribbon", "com.netflix.ribbon:ribbon-core", "com.netflix.ribbon:ribbon-loadbalancer", "com.netflix.ribbon:ribbon-transport" ],
   "repositoryUrl" : "",
   "rewrite" : {
-    "0.1.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "0.2.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : {
-          "apache-commons-collections" : "3.2.x"
-        },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "0.2.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "0.3.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : {
-          "apache-commons-collections" : "3.2.x"
-        },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "0.3.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.0.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : {
-          "apache-commons-collections" : "3.2.x",
-          "jersey" : "1.11.x"
-        },
-        "excludedArtifacts" : [ ]
-      }
-    },
     "2.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
@@ -51,9 +11,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-collections" : "3.2.x",
           "aws-sdk-java" : "2.0.x",
-          "jersey" : "1.11.x",
           "rx-java" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -67,9 +25,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-collections" : "3.2.x",
           "aws-sdk-java" : "2.0.x",
-          "jersey" : "1.19.x",
           "rx-java" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -83,9 +39,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-collections" : "3.2.x",
           "aws-sdk-java" : "2.0.x",
-          "jersey" : "1.19.x",
           "rx-java" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -99,9 +53,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-collections" : "3.2.x",
           "aws-sdk-java" : "2.0.x",
-          "jersey" : "1.19.x",
           "rx-java" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -115,9 +67,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-collections" : "3.2.x",
           "aws-sdk-java" : "2.0.x",
-          "jersey" : "1.19.x",
           "rx-java" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -131,9 +81,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-collections" : "3.2.x",
           "aws-sdk-java" : "2.0.x",
-          "jersey" : "1.19.x",
           "rx-java" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -144,9 +92,7 @@
       "nextRewrite" : null,
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-collections" : "3.2.x",
           "aws-sdk-java" : "2.0.x",
-          "jersey" : "1.19.x",
           "rx-java" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
