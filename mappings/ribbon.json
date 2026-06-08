@@ -1,6 +1,6 @@
 {
   "slug" : "ribbon",
-  "coordinates" : [ "com.netflix.ribbon:ribbon-core", "com.netflix.ribbon:ribbon-loadbalancer", "com.netflix.ribbon:ribbon-transport", "com.netflix.ribbon:ribbon-eureka" ],
+  "coordinates" : [ "com.netflix.ribbon:ribbon", "com.netflix.ribbon:ribbon-core", "com.netflix.ribbon:ribbon-loadbalancer", "com.netflix.ribbon:ribbon-transport", "com.netflix.ribbon:ribbon-eureka" ],
   "repositoryUrl" : "",
   "rewrite" : {
     "0.1.x" : {
