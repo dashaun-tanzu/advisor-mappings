@@ -1,25 +1,8 @@
 {
   "slug" : "spring-ai",
-  "coordinates" : [ "org.springframework.ai:spring-ai-commons", "org.springframework.ai:spring-ai-template-st" ],
+  "coordinates" : [ "org.springframework.ai:spring-ai-commons", "org.springframework.ai:spring-ai-mcp-annotations", "org.springframework.ai:spring-ai-model", "org.springframework.ai:spring-ai-template-st" ],
   "repositoryUrl" : "",
   "rewrite" : {
-    "1.0.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "1.1.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : {
-          "jackson" : "2.21.x",
-          "micrometer" : "1.15.x",
-          "micrometer-context-propagation" : "1.1.x",
-          "micrometer-tracing" : "1.5.x",
-          "spring-framework" : "6.2.x"
-        },
-        "excludedArtifacts" : [ ]
-      }
-    },
     "1.1.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
@@ -28,10 +11,11 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "jackson" : "2.21.x",
+          "jackson" : "2.19.x",
           "micrometer" : "1.15.x",
           "micrometer-context-propagation" : "1.1.x",
           "micrometer-tracing" : "1.5.x",
+          "reactor" : "3.7.x",
           "spring-framework" : "6.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -46,6 +30,7 @@
           "micrometer" : "1.17.x",
           "micrometer-context-propagation" : "1.2.x",
           "micrometer-tracing" : "1.7.x",
+          "reactor" : "3.8.x",
           "spring-framework" : "7.0.x"
         },
         "excludedArtifacts" : [ ]
