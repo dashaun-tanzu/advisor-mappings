@@ -1,0 +1,84 @@
+{
+  "slug" : "mcp-json-jackson2",
+  "coordinates" : [ "io.modelcontextprotocol.sdk:mcp-json-jackson2" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "0.13.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.14.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.17.x",
+          "jackson-annotations" : "2.17.x",
+          "mcp-json" : "0.13.x",
+          "reactor" : "3.7.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.14.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.15.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.17.x",
+          "jackson-annotations" : "2.17.x",
+          "mcp-json" : "0.14.x",
+          "reactor" : "3.7.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.15.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.16.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.19.x",
+          "jackson-annotations" : "2.19.x",
+          "mcp-json" : "0.15.x",
+          "reactor" : "3.7.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.16.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.17.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.19.x",
+          "jackson-annotations" : "2.19.x",
+          "mcp-json" : "0.16.x",
+          "reactor" : "3.7.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.17.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.19.x",
+          "jackson-annotations" : "2.19.x",
+          "mcp-json" : "0.17.x",
+          "reactor" : "3.7.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}
