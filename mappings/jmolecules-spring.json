@@ -1,0 +1,580 @@
+{
+  "slug" : "jmolecules-spring",
+  "coordinates" : [ "org.jmolecules.integrations:jmolecules-spring" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "0.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-boot" : "2.4.x",
+          "spring-data-mongodb" : "3.1.x",
+          "spring-data-relational" : "2.1.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-boot" : "2.4.x",
+          "spring-data-mongodb" : "3.1.x",
+          "spring-data-relational" : "2.1.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-boot" : "2.5.x",
+          "spring-data-mongodb" : "3.2.x",
+          "spring-data-relational" : "2.2.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-boot" : "2.5.x",
+          "spring-data-mongodb" : "3.2.x",
+          "spring-data-relational" : "2.2.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.12.x",
+          "spring-boot" : "2.5.x",
+          "spring-data-mongodb" : "3.2.x",
+          "spring-data-relational" : "2.2.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.8.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.12.x",
+          "spring-boot" : "2.5.x",
+          "spring-data-mongodb" : "3.2.x",
+          "spring-data-relational" : "2.2.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.9.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.12.x",
+          "spring-boot" : "2.5.x",
+          "spring-data-mongodb" : "3.2.x",
+          "spring-data-relational" : "2.2.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.10.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "hibernate-orm" : "6.0.x",
+          "jackson" : "2.12.x",
+          "spring-boot" : "2.5.x",
+          "spring-data-mongodb" : "3.2.x",
+          "spring-data-relational" : "2.2.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.11.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "hibernate-orm" : "6.0.x",
+          "jackson" : "2.13.x",
+          "spring-boot" : "2.6.x",
+          "spring-data-mongodb" : "3.3.x",
+          "spring-data-relational" : "2.3.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.11.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.12.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "hibernate-orm" : "6.0.x",
+          "jackson" : "2.13.x",
+          "spring-boot" : "2.6.x",
+          "spring-data-mongodb" : "3.3.x",
+          "spring-data-relational" : "2.3.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.12.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.13.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "hibernate-orm" : "6.1.x",
+          "jackson" : "2.13.x",
+          "spring-boot" : "2.6.x",
+          "spring-data-mongodb" : "3.3.x",
+          "spring-data-relational" : "2.3.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.13.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.14.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "hibernate-orm" : "6.1.x",
+          "jackson" : "2.13.x",
+          "spring-boot" : "2.6.x",
+          "spring-data-mongodb" : "3.3.x",
+          "spring-data-relational" : "2.3.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.14.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.15.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "hibernate-orm" : "6.1.x",
+          "jackson" : "2.13.x",
+          "spring-boot" : "2.7.x",
+          "spring-data-mongodb" : "3.4.x",
+          "spring-data-relational" : "2.4.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.15.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.16.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "hibernate-orm" : "6.1.x",
+          "jackson" : "2.13.x",
+          "spring-boot" : "2.7.x",
+          "spring-data-mongodb" : "3.4.x",
+          "spring-data-relational" : "2.4.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.16.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.17.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x",
+          "spring-boot" : "2.7.x",
+          "spring-data-mongodb" : "3.4.x",
+          "spring-data-relational" : "2.4.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.17.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.18.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x",
+          "spring-boot" : "2.7.x",
+          "spring-data-mongodb" : "3.4.x",
+          "spring-data-relational" : "2.4.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.18.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.19.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x",
+          "spring-boot" : "2.7.x",
+          "spring-data-mongodb" : "3.4.x",
+          "spring-data-relational" : "2.4.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.19.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.20.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x",
+          "spring-boot" : "2.7.x",
+          "spring-data-mongodb" : "3.4.x",
+          "spring-data-relational" : "2.4.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.20.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.21.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x",
+          "spring-boot" : "2.7.x",
+          "spring-data-mongodb" : "3.4.x",
+          "spring-data-relational" : "2.4.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.21.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.22.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x",
+          "spring-boot" : "2.7.x",
+          "spring-data-mongodb" : "3.4.x",
+          "spring-data-relational" : "2.4.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.22.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.23.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x",
+          "spring-boot" : "2.7.x",
+          "spring-data-mongodb" : "3.4.x",
+          "spring-data-relational" : "2.4.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.23.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.24.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x",
+          "spring-boot" : "2.7.x",
+          "spring-data-mongodb" : "3.4.x",
+          "spring-data-relational" : "2.4.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.24.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.25.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x",
+          "spring-boot" : "2.7.x",
+          "spring-data-mongodb" : "3.4.x",
+          "spring-data-relational" : "2.4.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.25.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.26.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x",
+          "spring-boot" : "2.7.x",
+          "spring-data-mongodb" : "3.4.x",
+          "spring-data-relational" : "2.4.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.26.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.27.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x",
+          "spring-boot" : "2.7.x",
+          "spring-data-mongodb" : "3.4.x",
+          "spring-data-relational" : "2.4.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.27.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.28.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x",
+          "spring-boot" : "2.7.x",
+          "spring-data-mongodb" : "3.4.x",
+          "spring-data-relational" : "2.4.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.28.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.29.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x",
+          "spring-boot" : "2.7.x",
+          "spring-data-mongodb" : "3.4.x",
+          "spring-data-relational" : "2.4.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.29.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.30.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x",
+          "spring-boot" : "2.7.x",
+          "spring-data-mongodb" : "3.4.x",
+          "spring-data-relational" : "2.4.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.30.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.31.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x",
+          "spring-boot" : "2.7.x",
+          "spring-data-mongodb" : "3.4.x",
+          "spring-data-relational" : "2.4.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.31.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.32.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.19.x",
+          "spring-boot" : "3.5.x",
+          "spring-data-mongodb" : "4.5.x",
+          "spring-data-relational" : "3.5.x",
+          "spring-framework" : "6.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.32.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.33.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.19.x",
+          "spring-boot" : "3.5.x",
+          "spring-data-mongodb" : "4.5.x",
+          "spring-data-relational" : "3.5.x",
+          "spring-framework" : "6.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.33.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.34.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.19.x",
+          "spring-boot" : "3.5.x",
+          "spring-data-mongodb" : "4.5.x",
+          "spring-data-relational" : "3.5.x",
+          "spring-framework" : "6.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.34.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "hibernate-orm" : "6.0.x",
+          "jackson" : "2.13.x",
+          "spring-boot" : "2.6.x",
+          "spring-data-mongodb" : "3.3.x",
+          "spring-data-relational" : "2.3.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}
