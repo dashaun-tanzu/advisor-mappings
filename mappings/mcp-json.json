@@ -1,0 +1,59 @@
+{
+  "slug" : "mcp-json",
+  "coordinates" : [ "io.modelcontextprotocol.sdk:mcp-json" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "0.13.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.14.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.14.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.15.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.15.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.16.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.16.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.17.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.17.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}
