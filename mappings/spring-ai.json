@@ -1,6 +1,6 @@
 {
   "slug" : "spring-ai",
-  "coordinates" : [ "org.springframework.ai:spring-ai-commons", "org.springframework.ai:spring-ai-mcp-annotations", "org.springframework.ai:spring-ai-model", "org.springframework.ai:spring-ai-template-st" ],
+  "coordinates" : [ "org.springframework.ai:spring-ai-autoconfigure-mcp-server-common", "org.springframework.ai:spring-ai-mcp", "org.springframework.ai:spring-ai-mcp-annotations" ],
   "repositoryUrl" : "",
   "rewrite" : {
     "1.1.x" : {
@@ -11,11 +11,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "jackson" : "2.19.x",
-          "micrometer" : "1.15.x",
-          "micrometer-context-propagation" : "1.1.x",
-          "micrometer-tracing" : "1.5.x",
-          "reactor" : "3.7.x",
+          "spring-boot" : "3.5.x",
           "spring-framework" : "6.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -26,11 +22,7 @@
       "nextRewrite" : null,
       "requirements" : {
         "supportedGenerations" : {
-          "jackson" : "3.1.x",
-          "micrometer" : "1.17.x",
-          "micrometer-context-propagation" : "1.2.x",
-          "micrometer-tracing" : "1.7.x",
-          "reactor" : "3.8.x",
+          "spring-boot" : "4.1.x",
           "spring-framework" : "7.0.x"
         },
         "excludedArtifacts" : [ ]
