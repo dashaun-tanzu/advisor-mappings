@@ -1,0 +1,194 @@
+{
+  "slug" : "jmolecules-apt",
+  "coordinates" : [ "org.jmolecules.integrations:jmolecules-apt" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "0.20.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.21.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jmolecules-spring" : "0.20.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.21.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.22.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jmolecules-spring" : "0.21.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.22.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.23.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jmolecules-spring" : "0.22.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.23.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.24.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jmolecules-spring" : "0.23.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.24.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.25.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jmolecules-spring" : "0.24.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.25.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.26.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jmolecules-spring" : "0.25.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.26.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.27.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jmolecules-spring" : "0.26.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.27.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.28.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jmolecules-spring" : "0.27.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.28.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.29.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jmolecules-spring" : "0.28.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.29.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.30.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jmolecules-spring" : "0.29.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.30.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.31.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "archunit" : "1.4.x",
+          "jmolecules-spring" : "0.30.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.31.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.32.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "archunit" : "1.4.x",
+          "jmolecules-spring" : "0.31.x",
+          "spring-framework" : "6.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.32.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.33.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "archunit" : "1.4.x",
+          "jmolecules-spring" : "0.32.x",
+          "spring-framework" : "6.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.33.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "archunit" : "1.4.x",
+          "jmolecules-spring" : "0.33.x",
+          "spring-framework" : "6.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}
