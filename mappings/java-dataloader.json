@@ -1,0 +1,28 @@
+{
+  "slug" : "java-dataloader",
+  "coordinates" : [ "com.graphql-java:java-dataloader" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "3.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}
