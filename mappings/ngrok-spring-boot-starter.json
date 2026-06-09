@@ -1,0 +1,134 @@
+{
+  "slug" : "ngrok-spring-boot-starter",
+  "coordinates" : [ "io.github.kilmajster:ngrok-spring-boot-starter" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "0.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-lang" : "3.12.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-lang" : "3.12.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-lang" : "3.12.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-lang" : "3.12.x",
+          "jackson" : "2.13.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.8.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-compress" : "1.21.x",
+          "apache-commons-lang" : "3.12.x",
+          "jackson" : "2.13.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.9.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-compress" : "1.21.x",
+          "apache-commons-lang" : "3.12.x",
+          "jackson" : "2.13.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.10.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-compress" : "1.26.x",
+          "apache-commons-lang" : "3.14.x",
+          "jackson" : "2.16.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.11.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-compress" : "1.28.x",
+          "apache-commons-lang" : "3.18.x",
+          "jackson" : "2.20.x",
+          "spring-boot" : "4.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.11.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-compress" : "1.28.x",
+          "apache-commons-lang" : "3.18.x",
+          "jackson" : "2.20.x",
+          "spring-boot" : "4.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}
