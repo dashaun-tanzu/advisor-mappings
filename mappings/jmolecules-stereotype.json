@@ -13,6 +13,7 @@
         "supportedGenerations" : {
           "archunit" : "1.4.x",
           "jmolecules-spring" : "0.30.x",
+          "json-path" : "2.7.x",
           "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
@@ -28,6 +29,7 @@
         "supportedGenerations" : {
           "archunit" : "1.4.x",
           "jmolecules-spring" : "0.31.x",
+          "json-path" : "2.9.x",
           "spring-framework" : "6.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -43,6 +45,7 @@
         "supportedGenerations" : {
           "archunit" : "1.4.x",
           "jmolecules-spring" : "0.32.x",
+          "json-path" : "2.9.x",
           "spring-framework" : "6.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -55,6 +58,7 @@
         "supportedGenerations" : {
           "archunit" : "1.4.x",
           "jmolecules-spring" : "0.33.x",
+          "json-path" : "2.9.x",
           "spring-framework" : "6.2.x"
         },
         "excludedArtifacts" : [ ]
