@@ -1,0 +1,64 @@
+{
+  "slug" : "jmolecules-stereotype",
+  "coordinates" : [ "org.jmolecules.integrations:jmolecules-stereotype" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "0.30.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.31.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "archunit" : "1.4.x",
+          "jmolecules-spring" : "0.30.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.31.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.32.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "archunit" : "1.4.x",
+          "jmolecules-spring" : "0.31.x",
+          "spring-framework" : "6.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.32.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.33.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "archunit" : "1.4.x",
+          "jmolecules-spring" : "0.32.x",
+          "spring-framework" : "6.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.33.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "archunit" : "1.4.x",
+          "jmolecules-spring" : "0.33.x",
+          "spring-framework" : "6.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}
