@@ -1,0 +1,128 @@
+{
+  "slug" : "mcp",
+  "coordinates" : [ "io.modelcontextprotocol.sdk:mcp-core", "io.modelcontextprotocol.sdk:mcp-json-jackson2" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "0.13.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.14.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.17.x",
+          "json-schema-validator" : "1.5.x",
+          "mcp-json" : "0.13.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.14.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.15.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.17.x",
+          "json-schema-validator" : "1.5.x",
+          "mcp-json" : "0.14.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.15.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.16.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.19.x",
+          "json-schema-validator" : "1.5.x",
+          "mcp-json" : "0.15.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.16.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.17.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.19.x",
+          "json-schema-validator" : "2.0.x",
+          "mcp-json" : "0.16.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.17.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.18.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.19.x",
+          "json-schema-validator" : "2.0.x",
+          "mcp-json" : "0.17.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.18.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.20.x",
+          "jackson-annotations" : "2.20.x",
+          "json-schema-validator" : "2.0.x",
+          "reactor" : "3.7.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}
