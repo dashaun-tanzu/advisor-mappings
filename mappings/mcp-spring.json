@@ -1,0 +1,15 @@
+{
+  "slug" : "mcp-spring",
+  "coordinates" : [ "org.springframework.ai:mcp-spring-webflux", "org.springframework.ai:mcp-spring-webmvc" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "2.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}
