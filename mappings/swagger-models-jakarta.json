@@ -1,0 +1,28 @@
+{
+  "slug" : "swagger-models-jakarta",
+  "coordinates" : [ "io.swagger.core.v3:swagger-models-jakarta" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "2.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson-annotations" : "2.12.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}
