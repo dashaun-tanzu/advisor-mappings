@@ -1,0 +1,15 @@
+{
+  "slug" : "log4j-plugins",
+  "coordinates" : [ "org.apache.logging.log4j:log4j-plugins" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "3.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}
