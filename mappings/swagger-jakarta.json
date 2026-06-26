@@ -1,5 +1,5 @@
 {
-  "slug" : "swagger",
+  "slug" : "swagger-jakarta",
   "coordinates" : [ "io.swagger.core.v3:swagger-annotations", "io.swagger.core.v3:swagger-core", "io.swagger.core.v3:swagger-models" ],
   "repositoryUrl" : "",
   "rewrite" : {
