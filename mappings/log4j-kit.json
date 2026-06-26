@@ -1,0 +1,15 @@
+{
+  "slug" : "log4j-kit",
+  "coordinates" : [ "org.apache.logging.log4j:log4j-kit" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "3.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

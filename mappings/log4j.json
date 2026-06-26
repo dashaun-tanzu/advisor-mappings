@@ -1,8 +1,85 @@
 {
   "slug" : "log4j",
-  "coordinates" : [ "org.apache.logging.log4j:log4j-api", "org.apache.logging.log4j:log4j-core", "org.apache.logging.log4j:log4j-spring-boot" ],
+  "coordinates" : [ "org.apache.logging.log4j:log4j-api", "org.apache.logging.log4j:log4j-core", "org.apache.logging.log4j:log4j-layout-template-json", "org.apache.logging.log4j:log4j-spring-boot" ],
   "repositoryUrl" : "",
   "rewrite" : {
+    "2.14.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.15.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.15.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.16.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.16.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.17.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.17.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.18.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.18.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.19.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.19.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.20.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.20.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.21.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
     "2.21.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
@@ -10,10 +87,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-boot" : "2.7.x",
-          "spring-framework" : "5.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -24,10 +98,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-boot" : "2.7.x",
-          "spring-framework" : "5.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -38,10 +109,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-boot" : "2.7.x",
-          "spring-framework" : "5.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -52,10 +120,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-boot" : "2.7.x",
-          "spring-framework" : "5.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -66,20 +131,28 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-boot" : "2.7.x",
-          "spring-framework" : "5.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
     "2.26.x" : {
       "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "3.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "3.0.x" : {
+      "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
         "supportedGenerations" : {
-          "spring-boot" : "2.7.x",
-          "spring-framework" : "5.3.x"
+          "log4j-kit" : "3.0.x",
+          "log4j-plugins" : "3.0.x"
         },
         "excludedArtifacts" : [ ]
       }
