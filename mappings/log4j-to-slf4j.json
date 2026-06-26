@@ -1,0 +1,268 @@
+{
+  "slug" : "log4j-to-slf4j",
+  "coordinates" : [ "org.apache.logging.log4j:log4j-api", "org.apache.logging.log4j:log4j-to-slf4j" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "2.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.8.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.9.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.10.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.11.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.11.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.12.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.12.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.13.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.13.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.14.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.14.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.15.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.15.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.16.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.16.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.17.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.17.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.18.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.18.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.19.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.19.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.20.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.20.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.21.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.21.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.22.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.22.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.23.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.23.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.24.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.24.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.25.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.25.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.26.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.26.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "3.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "3.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}
