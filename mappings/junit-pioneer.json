@@ -1,0 +1,325 @@
+{
+  "slug" : "junit-pioneer",
+  "coordinates" : [ "org.junit-pioneer:junit-pioneer" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "0.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "junit" : "5.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "junit" : "5.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "junit" : "5.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "junit" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "testcontainers" : "5.4.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "testcontainers" : "5.4.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.8.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "testcontainers" : "5.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.9.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "testcontainers" : "5.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "junit-platform" : "1.5.x",
+          "testcontainers" : "5.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "junit-platform" : "1.5.x",
+          "testcontainers" : "5.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "junit-platform" : "1.5.x",
+          "testcontainers" : "5.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "junit-platform" : "1.5.x",
+          "testcontainers" : "5.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "junit-platform" : "1.5.x",
+          "testcontainers" : "5.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "junit-platform" : "1.7.x",
+          "testcontainers" : "5.7.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "junit-platform" : "1.7.x",
+          "testcontainers" : "5.7.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "junit-platform" : "1.7.x",
+          "testcontainers" : "5.7.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.8.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x",
+          "junit-platform" : "1.9.x",
+          "testcontainers" : "5.9.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.9.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x",
+          "junit-platform" : "1.9.x",
+          "testcontainers" : "5.9.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x",
+          "junit-platform" : "1.9.x",
+          "testcontainers" : "5.9.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.14.x",
+          "junit-platform" : "1.9.x",
+          "testcontainers" : "5.9.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.14.x",
+          "junit-platform" : "1.9.x",
+          "testcontainers" : "5.9.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.14.x",
+          "junit-platform" : "1.9.x",
+          "testcontainers" : "5.9.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.14.x",
+          "junit-platform" : "1.11.x",
+          "testcontainers" : "5.11.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

@@ -1,92 +1,114 @@
 {
-  "slug" : "commons-text",
-  "coordinates" : [ "org.apache.commons:commons-text" ],
+  "slug" : "org.apache.logging.log4j:log4j",
+  "coordinates" : [ "org.apache.logging.log4j:log4j-api", "org.apache.logging.log4j:log4j-core", "org.apache.logging.log4j:log4j-spring-boot" ],
   "repositoryUrl" : "",
   "rewrite" : {
-    "1.9.x" : {
+    "2.14.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "1.10.x",
+        "version" : "2.15.x",
         "project" : null
       },
       "requirements" : {
         "supportedGenerations" : {
-          "commons-lang3" : "3.12.x"
+          "spring-boot" : "2.3.x",
+          "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
-    "1.10.x" : {
+    "2.15.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "1.11.x",
+        "version" : "2.16.x",
         "project" : null
       },
       "requirements" : {
         "supportedGenerations" : {
-          "commons-lang3" : "3.12.x"
+          "spring-boot" : "2.5.x",
+          "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
-    "1.11.x" : {
+    "2.16.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "1.12.x",
+        "version" : "2.17.x",
         "project" : null
       },
       "requirements" : {
         "supportedGenerations" : {
-          "commons-lang3" : "3.14.x"
+          "spring-boot" : "2.5.x",
+          "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
-    "1.12.x" : {
+    "2.17.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "1.13.x",
+        "version" : "2.18.x",
         "project" : null
       },
       "requirements" : {
         "supportedGenerations" : {
-          "commons-lang3" : "3.14.x"
+          "spring-boot" : "2.5.x",
+          "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
-    "1.13.x" : {
+    "2.18.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "1.14.x",
+        "version" : "2.19.x",
         "project" : null
       },
       "requirements" : {
         "supportedGenerations" : {
-          "commons-lang3" : "3.17.x"
+          "spring-boot" : "2.6.x",
+          "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
-    "1.14.x" : {
+    "2.19.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "1.15.x",
+        "version" : "2.20.x",
         "project" : null
       },
       "requirements" : {
         "supportedGenerations" : {
-          "commons-lang3" : "3.20.x"
+          "spring-boot" : "2.6.x",
+          "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
-    "1.15.x" : {
+    "2.20.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "3.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-boot" : "2.7.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "3.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
         "supportedGenerations" : {
-          "commons-lang3" : "3.20.x"
+          "log4j-plugins" : "3.0.x",
+          "spring-boot" : "2.7.x",
+          "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
       }

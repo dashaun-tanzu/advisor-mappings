@@ -1,0 +1,15 @@
+{
+  "slug" : "commons-jexl",
+  "coordinates" : [ "org.apache.commons:commons-jexl" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "2.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}
