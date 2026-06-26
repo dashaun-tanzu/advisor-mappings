@@ -1,0 +1,108 @@
+{
+  "slug" : "esapi",
+  "coordinates" : [ "org.owasp.esapi:esapi" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "2.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-collections" : "3.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-collections" : "3.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-collections" : "4.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-collections" : "4.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-collections" : "4.4.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-collections" : "4.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-collections" : "4.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-collections" : "4.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}
