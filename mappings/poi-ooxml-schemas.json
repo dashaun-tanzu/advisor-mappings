@@ -1,0 +1,37 @@
+{
+  "slug" : "poi-ooxml-schemas",
+  "coordinates" : [ "org.apache.poi:poi-ooxml-schemas" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "3.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

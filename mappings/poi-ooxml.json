@@ -1,0 +1,47 @@
+{
+  "slug" : "poi-ooxml",
+  "coordinates" : [ "org.apache.poi:poi-ooxml" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "3.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "poi-ooxml-schemas" : "3.10.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-collections" : "4.2.x",
+          "apache-commons-compress" : "1.18.x",
+          "poi-ooxml-schemas" : "4.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-collections" : "4.4.x",
+          "apache-commons-compress" : "1.19.x",
+          "poi-ooxml-schemas" : "4.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}
