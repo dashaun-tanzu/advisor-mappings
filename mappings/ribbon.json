@@ -1,17 +1,17 @@
 {
   "slug" : "ribbon",
-  "coordinates" : [ "com.netflix.ribbon:ribbon", "com.netflix.ribbon:ribbon-core", "com.netflix.ribbon:ribbon-loadbalancer", "com.netflix.ribbon:ribbon-transport", "com.netflix.ribbon:ribbon-eureka" ],
+  "coordinates" : [ "com.netflix.ribbon:ribbon-core", "com.netflix.ribbon:ribbon-httpclient" ],
   "repositoryUrl" : "",
   "rewrite" : {
     "0.1.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "0.2.x",
-        "project" : null
+        "version" : "0.2.x"
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-collections" : "3.2.x"
+          "apache-commons-collections" : "3.2.x",
+          "netflix" : "0.1.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -19,12 +19,12 @@
     "0.2.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "0.3.x",
-        "project" : null
+        "version" : "0.3.x"
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-collections" : "3.2.x"
+          "apache-commons-collections" : "3.2.x",
+          "netflix" : "0.1.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -32,13 +32,13 @@
     "0.3.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "2.0.x",
-        "project" : null
+        "version" : "2.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
           "apache-commons-collections" : "3.2.x",
-          "jersey" : "1.11.x"
+          "jersey" : "1.11.x",
+          "netflix" : "0.1.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -46,15 +46,16 @@
     "2.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "2.1.x",
-        "project" : null
+        "version" : "2.1.x"
       },
       "requirements" : {
         "supportedGenerations" : {
           "apache-commons-collections" : "3.2.x",
+          "apache-commons-lang" : "2.6.x",
           "aws-sdk-java" : "2.0.x",
           "jersey" : "1.11.x",
-          "rx-java" : "1.0.x"
+          "netflix" : "0.1.x",
+          "rxjava" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -62,15 +63,16 @@
     "2.1.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "2.2.x",
-        "project" : null
+        "version" : "2.2.x"
       },
       "requirements" : {
         "supportedGenerations" : {
           "apache-commons-collections" : "3.2.x",
+          "apache-commons-lang" : "2.6.x",
           "aws-sdk-java" : "2.0.x",
           "jersey" : "1.19.x",
-          "rx-java" : "1.0.x"
+          "netflix" : "0.1.x",
+          "rxjava" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -78,15 +80,16 @@
     "2.2.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "2.3.x",
-        "project" : null
+        "version" : "2.3.x"
       },
       "requirements" : {
         "supportedGenerations" : {
           "apache-commons-collections" : "3.2.x",
+          "apache-commons-lang" : "2.6.x",
           "aws-sdk-java" : "2.0.x",
           "jersey" : "1.19.x",
-          "rx-java" : "1.0.x"
+          "netflix" : "0.1.x",
+          "rxjava" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -94,15 +97,16 @@
     "2.3.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "2.4.x",
-        "project" : null
+        "version" : "2.4.x"
       },
       "requirements" : {
         "supportedGenerations" : {
           "apache-commons-collections" : "3.2.x",
+          "apache-commons-lang" : "2.6.x",
           "aws-sdk-java" : "2.0.x",
           "jersey" : "1.19.x",
-          "rx-java" : "1.0.x"
+          "netflix" : "0.1.x",
+          "rxjava" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -110,15 +114,16 @@
     "2.4.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "2.6.x",
-        "project" : null
+        "version" : "2.6.x"
       },
       "requirements" : {
         "supportedGenerations" : {
           "apache-commons-collections" : "3.2.x",
+          "apache-commons-lang" : "2.6.x",
           "aws-sdk-java" : "2.0.x",
           "jersey" : "1.19.x",
-          "rx-java" : "1.0.x"
+          "netflix" : "0.1.x",
+          "rxjava" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -126,15 +131,16 @@
     "2.6.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "2.7.x",
-        "project" : null
+        "version" : "2.7.x"
       },
       "requirements" : {
         "supportedGenerations" : {
           "apache-commons-collections" : "3.2.x",
+          "apache-commons-lang" : "2.6.x",
           "aws-sdk-java" : "2.0.x",
           "jersey" : "1.19.x",
-          "rx-java" : "1.0.x"
+          "netflix" : "0.1.x",
+          "rxjava" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -145,9 +151,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "apache-commons-collections" : "3.2.x",
+          "apache-commons-lang" : "2.6.x",
           "aws-sdk-java" : "2.0.x",
           "jersey" : "1.19.x",
-          "rx-java" : "1.0.x"
+          "netflix" : "0.1.x",
+          "rxjava" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
       }
