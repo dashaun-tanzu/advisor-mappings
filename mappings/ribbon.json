@@ -1,54 +1,8 @@
 {
   "slug" : "ribbon",
-  "coordinates" : [ "com.netflix.ribbon:ribbon-core", "com.netflix.ribbon:ribbon-eureka" ],
+  "coordinates" : [ "com.netflix.ribbon:ribbon", "com.netflix.ribbon:ribbon-core", "com.netflix.ribbon:ribbon-loadbalancer", "com.netflix.ribbon:ribbon-transport" ],
   "repositoryUrl" : "",
   "rewrite" : {
-    "0.1.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "0.2.x"
-      },
-      "requirements" : {
-        "supportedGenerations" : {
-          "apache-commons-collections" : "3.2.x",
-          "archaius-core" : "0.5.x",
-          "eureka-client" : "1.1.x",
-          "netflix" : "0.1.x"
-        },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "0.2.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "0.3.x"
-      },
-      "requirements" : {
-        "supportedGenerations" : {
-          "apache-commons-collections" : "3.2.x",
-          "archaius-core" : "0.5.x",
-          "eureka-client" : "1.1.x",
-          "netflix" : "0.1.x"
-        },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "0.3.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.0.x"
-      },
-      "requirements" : {
-        "supportedGenerations" : {
-          "apache-commons-collections" : "3.2.x",
-          "archaius-core" : "0.5.x",
-          "eureka-client" : "1.1.x",
-          "jersey" : "1.11.x",
-          "netflix" : "0.1.x"
-        },
-        "excludedArtifacts" : [ ]
-      }
-    },
     "2.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
@@ -59,9 +13,10 @@
           "apache-commons-lang" : "2.6.x",
           "archaius-core" : "0.6.x",
           "aws-sdk-java" : "2.0.x",
-          "eureka-client" : "1.1.x",
+          "hystrix-core" : "1.4.x",
           "netflix" : "0.1.x",
-          "rxjava" : "1.0.x"
+          "rxjava" : "1.0.x",
+          "rxnetty" : "0.4.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -76,9 +31,10 @@
           "apache-commons-lang" : "2.6.x",
           "archaius-core" : "0.6.x",
           "aws-sdk-java" : "2.0.x",
-          "eureka-client" : "1.1.x",
+          "hystrix-core" : "1.4.x",
           "netflix" : "0.1.x",
-          "rxjava" : "1.0.x"
+          "rxjava" : "1.0.x",
+          "rxnetty" : "0.4.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -93,8 +49,10 @@
           "apache-commons-lang" : "2.6.x",
           "archaius-core" : "0.7.x",
           "aws-sdk-java" : "2.0.x",
-          "eureka-client" : "1.4.x",
-          "rxjava" : "1.0.x"
+          "hystrix-core" : "1.4.x",
+          "netflix" : "0.1.x",
+          "rxjava" : "1.0.x",
+          "rxnetty" : "0.4.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -109,8 +67,10 @@
           "apache-commons-lang" : "2.6.x",
           "archaius-core" : "0.7.x",
           "aws-sdk-java" : "2.0.x",
-          "eureka-client" : "1.7.x",
-          "rxjava" : "1.0.x"
+          "hystrix-core" : "1.4.x",
+          "netflix" : "0.1.x",
+          "rxjava" : "1.0.x",
+          "rxnetty" : "0.4.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -125,8 +85,10 @@
           "apache-commons-lang" : "2.6.x",
           "archaius-core" : "0.7.x",
           "aws-sdk-java" : "2.0.x",
-          "eureka-client" : "1.7.x",
-          "rxjava" : "1.0.x"
+          "hystrix-core" : "1.4.x",
+          "netflix" : "0.1.x",
+          "rxjava" : "1.0.x",
+          "rxnetty" : "0.4.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -139,9 +101,12 @@
       "requirements" : {
         "supportedGenerations" : {
           "apache-commons-lang" : "2.6.x",
+          "archaius-core" : "0.7.x",
           "aws-sdk-java" : "2.0.x",
-          "eureka-client" : "1.7.x",
-          "rxjava" : "1.0.x"
+          "hystrix-core" : "1.4.x",
+          "netflix" : "0.1.x",
+          "rxjava" : "1.0.x",
+          "rxnetty" : "0.4.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -152,9 +117,12 @@
       "requirements" : {
         "supportedGenerations" : {
           "apache-commons-lang" : "2.6.x",
+          "archaius-core" : "0.7.x",
           "aws-sdk-java" : "2.0.x",
-          "eureka-client" : "1.7.x",
-          "rxjava" : "1.0.x"
+          "hystrix-core" : "1.4.x",
+          "netflix" : "0.1.x",
+          "rxjava" : "1.0.x",
+          "rxnetty" : "0.4.x"
         },
         "excludedArtifacts" : [ ]
       }
