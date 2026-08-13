@@ -8,8 +8,7 @@
       "nextRewrite" : null,
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-lang" : "3.19.x",
-          "spring-framework" : "5.3.x"
+          "commons-lang3" : "3.19.x"
         },
         "excludedArtifacts" : [ ]
       }
