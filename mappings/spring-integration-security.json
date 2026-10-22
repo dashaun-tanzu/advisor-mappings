@@ -5,9 +5,126 @@
   "rewrite" : {
     "4.3.x" : {
       "recipes" : [ ],
-      "nextRewrite" : null,
+      "nextRewrite" : {
+        "version" : "5.0.x"
+      },
       "requirements" : {
         "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.1.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-integration-core" : "5.0.x",
+          "spring-security" : "5.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.2.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-integration-core" : "5.1.x",
+          "spring-security" : "5.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.3.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-integration-core" : "5.2.x",
+          "spring-security" : "5.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.4.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-integration-core" : "5.3.x",
+          "spring-security" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.5.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-integration-core" : "5.4.x",
+          "spring-security" : "5.4.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.0.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-integration-core" : "5.5.x",
+          "spring-security" : "5.7.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.1.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-integration-core" : "6.0.x",
+          "spring-security" : "6.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.2.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-integration-core" : "6.1.x",
+          "spring-security" : "6.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-integration-core" : "6.2.x",
+          "spring-security" : "6.2.x"
+        },
         "excludedArtifacts" : [ ]
       }
     }

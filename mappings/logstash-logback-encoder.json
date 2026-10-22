@@ -6,8 +6,7 @@
     "4.5.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "7.0.x",
-        "project" : null
+        "version" : "7.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -19,8 +18,7 @@
     "7.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "7.1.x",
-        "project" : null
+        "version" : "7.1.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -31,10 +29,82 @@
     },
     "7.1.x" : {
       "recipes" : [ ],
-      "nextRewrite" : null,
+      "nextRewrite" : {
+        "version" : "7.2.x"
+      },
       "requirements" : {
         "supportedGenerations" : {
           "jackson" : "2.13.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.3.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.4.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.14.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "8.0.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.15.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "8.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "8.1.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.17.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "8.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "9.0.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.18.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "9.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "3.0.x"
         },
         "excludedArtifacts" : [ ]
       }

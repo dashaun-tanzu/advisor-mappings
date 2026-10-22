@@ -5,9 +5,21 @@
   "rewrite" : {
     "2.0.x" : {
       "recipes" : [ ],
-      "nextRewrite" : null,
+      "nextRewrite" : {
+        "version" : "2.1.x"
+      },
       "requirements" : {
         "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-framework" : "7.1.x"
+        },
         "excludedArtifacts" : [ ]
       }
     }

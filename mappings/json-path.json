@@ -197,10 +197,34 @@
     },
     "6.0.x" : {
       "recipes" : [ ],
-      "nextRewrite" : null,
+      "nextRewrite" : {
+        "version" : "6.1.x"
+      },
       "requirements" : {
         "supportedGenerations" : {
           "commons-lang3" : "3.19.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.2.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-lang" : "3.19.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-lang" : "3.21.x"
         },
         "excludedArtifacts" : [ ]
       }

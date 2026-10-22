@@ -6,8 +6,7 @@
     "3.10.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "4.0.x",
-        "project" : null
+        "version" : "4.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -19,8 +18,7 @@
     "4.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "4.1.x",
-        "project" : null
+        "version" : "4.1.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -33,12 +31,101 @@
     },
     "4.1.x" : {
       "recipes" : [ ],
-      "nextRewrite" : null,
+      "nextRewrite" : {
+        "version" : "5.0.x"
+      },
       "requirements" : {
         "supportedGenerations" : {
           "apache-commons-collections" : "4.4.x",
           "apache-commons-compress" : "1.19.x",
           "poi-ooxml-schemas" : "4.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.1.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-collections" : "4.4.x",
+          "apache-commons-compress" : "1.20.x",
+          "apache-commons-math" : "3.6.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.2.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-collections" : "4.4.x",
+          "apache-commons-compress" : "1.21.x",
+          "apache-commons-io" : "2.11.x",
+          "apache-commons-math" : "3.6.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.3.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-collections" : "4.4.x",
+          "apache-commons-compress" : "1.25.x",
+          "apache-commons-io" : "2.15.x",
+          "apache-commons-math" : "3.6.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.4.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-collections" : "4.4.x",
+          "apache-commons-compress" : "1.26.x",
+          "apache-commons-io" : "2.16.x",
+          "apache-commons-math" : "3.6.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.5.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-collections" : "4.4.x",
+          "apache-commons-compress" : "1.27.x",
+          "apache-commons-io" : "2.18.x",
+          "apache-commons-math" : "3.6.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-collections" : "4.5.x",
+          "apache-commons-compress" : "1.28.x",
+          "apache-commons-io" : "2.21.x",
+          "apache-commons-math" : "3.6.x"
         },
         "excludedArtifacts" : [ ]
       }

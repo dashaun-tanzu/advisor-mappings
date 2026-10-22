@@ -6,8 +6,7 @@
     "0.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "2.0.x",
-        "project" : null
+        "version" : "2.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -20,8 +19,7 @@
     "2.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "2.1.x",
-        "project" : null
+        "version" : "2.1.x"
       },
       "requirements" : {
         "supportedGenerations" : { },
@@ -31,8 +29,7 @@
     "2.1.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "2.2.x",
-        "project" : null
+        "version" : "2.2.x"
       },
       "requirements" : {
         "supportedGenerations" : { },
@@ -42,8 +39,7 @@
     "2.2.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "2.3.x",
-        "project" : null
+        "version" : "2.3.x"
       },
       "requirements" : {
         "supportedGenerations" : { },
@@ -53,8 +49,7 @@
     "2.3.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "2.4.x",
-        "project" : null
+        "version" : "2.4.x"
       },
       "requirements" : {
         "supportedGenerations" : { },
@@ -64,8 +59,7 @@
     "2.4.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "3.0.x",
-        "project" : null
+        "version" : "3.0.x"
       },
       "requirements" : {
         "supportedGenerations" : { },
@@ -75,8 +69,7 @@
     "3.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "17.0.x",
-        "project" : null
+        "version" : "17.0.x"
       },
       "requirements" : {
         "supportedGenerations" : { },
@@ -85,10 +78,764 @@
     },
     "17.0.x" : {
       "recipes" : [ ],
-      "nextRewrite" : null,
+      "nextRewrite" : {
+        "version" : "17.1.x"
+      },
       "requirements" : {
         "supportedGenerations" : {
           "java-dataloader" : "3.0.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "17.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "17.2.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.1.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "17.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "17.3.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.1.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "17.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "17.4.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.1.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "17.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "17.5.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.1.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "17.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "17.6.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.1.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "17.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "18.0.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.1.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "18.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "18.1.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.1.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "18.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "18.2.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.1.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "18.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "18.3.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.1.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "18.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "18.4.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.1.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "18.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "18.5.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.1.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "18.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "18.6.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.1.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "18.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "18.7.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.1.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "18.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "19.0.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.1.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "19.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "19.1.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "19.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "19.2.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "19.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "19.3.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "19.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "19.4.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "19.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "19.5.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "19.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "19.6.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "19.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "19.7.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "19.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "19.8.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "19.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "19.9.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "19.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "19.10.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "19.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "19.11.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "19.11.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "20.0.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "20.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "20.1.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "20.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "20.2.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "20.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "20.3.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "20.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "20.4.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "20.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "20.5.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "20.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "20.6.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "20.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "20.7.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "20.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "20.8.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "20.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "20.9.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "20.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "21.0.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "21.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "21.1.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "21.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "21.2.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "21.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "21.3.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "21.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "21.4.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "21.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "21.5.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "21.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "22.0.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.2.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "22.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "22.1.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.3.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "22.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "22.2.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.3.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "22.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "22.3.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.3.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "22.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "22.4.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.3.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "22.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "23.0.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "3.3.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "23.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "23.1.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "4.0.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "23.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "24.0.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "4.0.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "24.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "24.1.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "5.0.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "24.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "24.2.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "5.0.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "24.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "24.3.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "5.0.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "24.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "24.4.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "5.0.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "24.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "25.0.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "5.0.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "25.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "25.1.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "6.0.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "25.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "26.0.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "6.0.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "26.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "26.1.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "6.0.x",
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "26.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "java-dataloader" : "6.0.x",
           "reactive-streams" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
